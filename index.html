@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WeighCast</title>
+<meta name="description" content="WeighCast reads your weigh-ins from Apple Health and estimates when you'll reach your goal. Free, no adverts, all on your device.">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 40rem; margin: 0 auto; padding: 4rem 1.25rem 5rem;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8e8; background: #141414; }
+    a { color: #6fb3ff; }
+    hr { border-color: #333; }
+    .card { background: #1e1e1e; border-color: #2e2e2e; }
+    .tag { background: #1e1e1e; border-color: #2e2e2e; color: #b8b8b8; }
+  }
+  h1 { font-size: 2.4rem; margin: 0 0 .5rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.15rem; margin: 2.75rem 0 .75rem; }
+  .lead { font-size: 1.2rem; line-height: 1.55; margin: 0 0 1.75rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; padding: 0; list-style: none; }
+  .tag {
+    font-size: .85rem; padding: .3rem .7rem; border-radius: 999px;
+    border: 1px solid #e0e0e0; background: #fafafa; color: #555;
+  }
+  .card {
+    border: 1px solid #e5e5e5; background: #fafafa;
+    border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: .75rem;
+  }
+  .card a { font-weight: 500; text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  .card p { margin: .35rem 0 0; font-size: .95rem; color: #666; }
+  @media (prefers-color-scheme: dark) { .card p { color: #999; } }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .45rem; }
+  hr { border: 0; border-top: 1px solid #e5e5e5; margin: 3rem 0 1.5rem; }
+  footer { font-size: .9rem; color: #777; }
+</style>
+</head>
+<body>
+
+<h1>WeighCast</h1>
+<p class="lead">Weight loss without knowing when it ends is hard. WeighCast reads
+your weigh-ins from Apple Health, finds the trend underneath the daily noise, and
+estimates when you'll reach your goal.</p>
+
+<ul class="tags">
+  <li class="tag">iPhone</li>
+  <li class="tag">Free</li>
+  <li class="tag">No adverts, ever</li>
+  <li class="tag">All on your device</li>
+</ul>
+
+<h2>What it does</h2>
+<ul>
+  <li>Follows your <strong>trend weight</strong> rather than any single reading,
+      because day-to-day swings of a kilo or two are mostly water and food.</li>
+  <li>Gives you a <strong>range of dates</strong> rather than a single day, and
+      shows you honestly how certain it is.</li>
+  <li>Marks out <strong>milestones along the way</strong>, so there's a win every
+      few weeks instead of one distant payoff.</li>
+  <li>Works with a smart scale that syncs to Apple Health, or with weigh-ins you
+      add by hand.</li>
+</ul>
+
+<h2>What it won't do</h2>
+<ul>
+  <li>No adverts, no tracking, no analytics, and nothing sold to anyone.</li>
+  <li>No streaks or nagging — a missed day isn't a failure.</li>
+  <li>No targets below a healthy weight range for your height.</li>
+  <li>It can't tell muscle from fat, and it won't pretend otherwise.</li>
+</ul>
+
+<h2>Your data</h2>
+<p>Everything stays on your iPhone. There are no accounts and no servers, so
+there's nowhere for your information to go. The only things WeighCast writes to
+Apple Health are weigh-ins you type in yourself.</p>
+
+<h2>Documents</h2>
+
+<div class="card">
+  <a href="./privacy.html">Privacy Policy</a>
+  <p>What WeighCast reads, what it writes, and why there's nothing for us to collect.</p>
+</div>
+
+<div class="card">
+  <a href="./terms.html">Terms of Use</a>
+  <p>What the app is, what it isn't, and the limits it works within.</p>
+</div>
+
+<h2>Get in touch</h2>
+<p>Problems, questions or suggestions:
+<a href="mailto:weighcast.app@gmail.com">weighcast.app@gmail.com</a></p>
+
+<hr>
+<footer>
+  <p>WeighCast is not a medical device and does not provide medical advice. Speak
+  to a qualified healthcare professional about your health.</p>
+</footer>
+
+</body>
+</html>
